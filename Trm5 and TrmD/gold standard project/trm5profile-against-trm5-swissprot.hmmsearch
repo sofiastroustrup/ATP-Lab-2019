@@ -1,0 +1,415 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  clustalo-swissprot-trm5-19-07-30.cln.msa.hmmbuild
+# target sequence database:        originals/swissprot-trm5.fasta
+# output directed to file:         trm5profile-against-trm5-swissprot.hmmsearch
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 1000
+# sequence inclusion threshold:    E-value <= 1000
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       clustalo-swissprot-trm5-19-07-30.cln  [M=431]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence              Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------              -----------
+   8.1e-151  495.0   0.3   9.7e-151  494.7   0.3    1.0  1  sp|Q3MHN8|TRM5_BOVIN   tRNA (guanine(37)-N1)-methyltransferas
+   1.8e-150  493.9   0.0   2.4e-150  493.4   0.0    1.0  1  sp|F4NUJ6|TRM5_BATDJ   tRNA (guanine(37)-N1)-methyltransferas
+   2.1e-150  493.6   2.2   2.8e-150  493.2   2.2    1.0  1  sp|F6VSS6|TRM5_XENTR   tRNA (guanine(37)-N1)-methyltransferas
+   6.8e-150  491.9   0.0   8.9e-150  491.6   0.0    1.0  1  sp|Q9D0C4|TRM5_MOUSE   tRNA (guanine(37)-N1)-methyltransferas
+   1.3e-148  487.7   0.0   1.6e-148  487.4   0.0    1.0  1  sp|B8A5G9|TRM5_DANRE   tRNA (guanine(37)-N1)-methyltransferas
+   1.6e-148  487.4   0.0     2e-148  487.1   0.0    1.0  1  sp|A8N339|TRM5_COPC7   tRNA (guanine(37)-N1)-methyltransferas
+     2e-148  487.1   0.0   2.4e-148  486.8   0.0    1.0  1  sp|Q4WX30|TRM5_ASPFU   tRNA (guanine(37)-N1)-methyltransferas
+   5.7e-148  485.6   0.2   6.8e-148  485.3   0.2    1.0  1  sp|F7GSQ4|TRM5_MACMU   tRNA (guanine(37)-N1)-methyltransferas
+     1e-147  484.7   0.0   1.3e-147  484.5   0.0    1.0  1  sp|Q8TFG7|TRM5_SCHPO   tRNA (guanine(37)-N1)-methyltransferas
+   1.3e-147  484.5   0.0   1.5e-147  484.2   0.0    1.0  1  sp|Q93YU6|TRM51_ARATH  tRNA (guanine(37)-N1)-methyltransferas
+   1.7e-147  484.0   0.1   2.1e-147  483.8   0.1    1.0  1  sp|Q95KJ2|TRM5_MACFA   tRNA (guanine(37)-N1)-methyltransferas
+   2.7e-147  483.4   0.2   3.2e-147  483.1   0.2    1.0  1  sp|Q32P41|TRM5_HUMAN   tRNA (guanine(37)-N1)-methyltransferas
+   4.7e-147  482.6   0.0   5.6e-147  482.3   0.0    1.0  1  sp|F6HH45|TRM52_VITVI  tRNA (guanine(37)-N1)-methyltransferas
+   4.5e-146  479.3   0.0   4.9e-146  479.2   0.0    1.0  1  sp|F5HAU9|TRM5_NEUCR   tRNA (guanine(37)-N1)-methyltransferas
+   1.7e-145  477.5   1.0   2.1e-145  477.1   1.0    1.0  1  sp|B5DPF1|TRM5_DROPS   tRNA (guanine(37)-N1)-methyltransferas
+   1.8e-145  477.4   0.4     2e-145  477.2   0.4    1.0  1  sp|Q6CA67|TRM5_YARLI   tRNA (guanine(37)-N1)-methyltransferas
+   2.2e-143  470.5   0.6   2.6e-143  470.2   0.6    1.0  1  sp|C4YH95|TRM5_CANAW   tRNA (guanine(37)-N1)-methyltransferas
+   3.2e-143  469.9   0.0   3.6e-143  469.8   0.0    1.0  1  sp|C7YK87|TRM5_NECH7   tRNA (guanine(37)-N1)-methyltransferas
+   3.4e-143  469.9   1.2   4.1e-143  469.6   1.2    1.0  1  sp|Q59TN1|TRM5_CANAL   tRNA (guanine(37)-N1)-methyltransferas
+   8.1e-143  468.6   0.5   1.1e-142  468.2   0.5    1.1  1  sp|D0NLC2|TRM5_PHYIT   tRNA (guanine(37)-N1)-methyltransferas
+   3.4e-142  466.6   0.6   4.4e-142  466.2   0.6    1.0  1  sp|Q8IRE4|TRM5_DROME   tRNA (guanine(37)-N1)-methyltransferas
+   4.3e-141  462.9   0.3   5.2e-141  462.7   0.3    1.0  1  sp|P38793|TRM5_YEAST   tRNA (guanine(37)-N1)-methyltransferas
+   2.1e-140  460.7   2.0   2.1e-140  460.7   2.0    2.0  1  sp|Q7Q5Z3|TRM5_ANOGA   tRNA (guanine(37)-N1)-methyltransferas
+   1.1e-139  458.3   0.0   2.4e-139  457.2   0.0    1.5  1  sp|Q4PHW2|TRM5_USTMA   tRNA (guanine(37)-N1)-methyltransferas
+     3e-139  456.9   0.0   3.3e-139  456.7   0.0    1.0  1  sp|C8VJ35|TRM5_EMENI   tRNA (guanine(37)-N1)-methyltransferas
+   6.7e-139  455.7   0.2   7.9e-139  455.5   0.2    1.1  1  sp|F6H2F8|TRM51_VITVI  tRNA (guanine(37)-N1)-methyltransferas
+   4.9e-138  452.9   0.5   4.9e-138  452.9   0.5    2.0  1  sp|Q16VC0|TRM5_AEDAE   tRNA (guanine(37)-N1)-methyltransferas
+     8e-137  448.9   0.0   9.1e-137  448.7   0.0    1.0  1  sp|Q4QEY9|TRM5_LEIMA   tRNA (guanine(37)-N1)-methyltransferas
+   1.5e-136  447.9   0.0   1.8e-136  447.7   0.0    1.0  1  sp|A4HWT0|TRM5_LEIIN   tRNA (guanine(37)-N1)-methyltransferas
+   3.2e-134  440.3   0.0   3.8e-134  440.0   0.0    1.0  1  sp|A4H8F7|TRM5_LEIBR   tRNA (guanine(37)-N1)-methyltransferas
+   9.8e-134  438.7   8.4   9.8e-134  438.7   8.4    1.3  1  sp|B3L2G0|TRM5_PLAKH   tRNA (guanine(37)-N1)-methyltransferas
+   6.4e-133  436.0   0.0   7.5e-133  435.8   0.0    1.0  1  sp|Q5KBP2|TRM5_CRYNJ   tRNA (guanine(37)-N1)-methyltransferas
+   6.6e-133  436.0   2.3   9.1e-133  435.5   2.3    1.2  1  sp|A5K6L0|TRM5_PLAVS   tRNA (guanine(37)-N1)-methyltransferas
+   6.7e-133  435.9   5.0   6.7e-133  435.9   5.0    1.6  2  sp|Q54WD6|TRM5_DICDI   tRNA (guanine(37)-N1)-methyltransferas
+     8e-133  435.7   0.0     1e-132  435.3   0.0    1.0  1  sp|A9T6G5|TRM5_PHYPA   tRNA (guanine(37)-N1)-methyltransferas
+   2.1e-132  434.3   0.6   2.6e-132  434.0   0.6    1.0  1  sp|F7A355|TRM5_CIOIN   tRNA (guanine(37)-N1)-methyltransferas
+   6.4e-131  429.4   0.0   8.4e-131  429.0   0.0    1.1  1  sp|Q6NQ64|TRM52_ARATH  tRNA (guanine(37)-N1)-methyltransferas
+   7.5e-131  429.2   0.0   8.9e-131  429.0   0.0    1.0  1  sp|E3KWE1|TRM5_PUCGT   tRNA (guanine(37)-N1)-methyltransferas
+   1.1e-129  425.4   0.4   1.1e-129  425.4   0.4    1.9  2  sp|E3WPP8|TRM5_ANODA   tRNA (guanine(37)-N1)-methyltransferas
+   1.2e-129  425.3   0.0   1.3e-127  418.5   0.0    2.0  1  sp|C5XX79|TRM5_SORBI   tRNA (guanine(37)-N1)-methyltransferas
+   4.2e-127  416.8  63.2   5.2e-124  406.7  61.6    3.5  1  sp|C0H537|TRM5_PLAF7   tRNA (guanine(37)-N1)-methyltransferas
+   2.5e-125  411.0  13.4   3.7e-125  410.4  13.4    1.1  1  sp|E0VLV0|TRM5_PEDHC   tRNA (guanine(37)-N1)-methyltransferas
+   1.6e-122  401.7   0.0   9.6e-118  386.0   0.0    2.0  2  sp|C0NUP2|TRM5_AJECG   tRNA (guanine(37)-N1)-methyltransferas
+   3.5e-122  400.6   0.4   5.1e-122  400.1   0.4    1.1  1  sp|B7FTW3|TRM51_PHATC  tRNA (guanine(37)-N1)-methyltransferas
+   8.8e-122  399.3   0.0   1.1e-121  399.0   0.0    1.1  1  sp|Q4DPN8|TRM52_TRYCC  tRNA (guanine(37)-N1)-methyltransferas
+   1.3e-121  398.7   0.0   1.6e-121  398.4   0.0    1.1  1  sp|Q4CNL4|TRM51_TRYCC  tRNA (guanine(37)-N1)-methyltransferas
+   3.8e-121  397.2   0.0   6.5e-121  396.5   0.0    1.2  1  sp|A2E5K9|TRM5_TRIVA   tRNA (guanine(37)-N1)-methyltransferas
+   7.6e-118  386.3   0.0    1.2e-64  211.0   0.0    2.0  2  sp|Q0UVC3|TRM5_PHANO   tRNA (guanine(37)-N1)-methyltransferas
+   9.2e-118  386.1   1.5   2.4e-117  384.7   1.5    1.5  1  sp|D3BT31|TRM5_POLPP   tRNA (guanine(37)-N1)-methyltransferas
+   2.8e-117  384.5   0.0   3.7e-117  384.1   0.0    1.1  1  sp|B8BQY5|TRM5_THAPS   tRNA (guanine(37)-N1)-methyltransferas
+   3.6e-117  384.1   0.0   3.5e-115  377.6   0.0    2.0  1  sp|D5GN29|TRM5_TUBMM   tRNA (guanine(37)-N1)-methyltransferas
+   1.6e-112  368.8   0.6   2.1e-112  368.4   0.6    1.0  1  sp|A8WHT1|TRM5_CAEEL   tRNA (guanine(37)-N1)-methyltransferas
+   1.2e-108  356.0   6.1   1.7e-108  355.6   6.1    1.1  1  sp|C4M572|TRM5_ENTHI   tRNA (guanine(37)-N1)-methyltransferas
+   2.3e-108  355.1   4.6   3.2e-108  354.6   4.6    1.1  1  sp|A0CC46|TRM5_PARTE   tRNA (guanine(37)-N1)-methyltransferas
+    3.1e-98  321.7   0.0    3.7e-98  321.5   0.0    1.0  1  sp|B7G5J1|TRM52_PHATC  tRNA (guanine(37)-N1)-methyltransferas
+    4.8e-97  317.8   7.7    8.7e-59  191.7   0.0    2.0  2  sp|Q4MYY2|TRM5_THEPA   tRNA (guanine(37)-N1)-methyltransferas
+    8.2e-96  313.7   7.8    1.1e-95  313.3   7.8    1.1  1  sp|Q4UB74|TRM5_THEAN   tRNA (guanine(37)-N1)-methyltransferas
+    1.2e-87  286.8   0.0    2.4e-87  285.8   0.0    1.3  1  sp|Q8SVV3|TRM5_ENCCU   tRNA (guanine(37)-N1)-methyltransferas
+    3.1e-80  262.4   0.0    5.1e-80  261.7   0.0    1.3  1  sp|A8B4Q0|TRM5_GIAIC   tRNA (guanine(37)-N1)-methyltransferas
+      8e-69  224.8   0.0    4.4e-67  219.1   0.0    2.0  1  sp|Q9V0Q0|TRM5B_PYRAB  tRNA (guanine(37)-N1)-methyltransferas
+    4.1e-57  186.2   1.9    1.7e-55  180.9   1.9    2.0  1  sp|Q58293|TRM5B_METJA  tRNA (guanine(37)-N1)-methyltransferas
+    5.1e-17   54.1   0.0    6.6e-17   53.7   0.0    1.1  1  sp|Q53H54|TYW2_HUMAN   tRNA wybutosine-synthesizing protein 2
+
+
+Domain annotation for each sequence:
+>> sp|Q3MHN8|TRM5_BOVIN  tRNA (guanine(37)-N1)-methyltransferase OS=Bos taurus OX=9913 GN=TRMT5 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  494.7   0.3  9.7e-151  9.7e-151      14     427 ..      83     477 ..      12     481 .. 0.86
+
+>> sp|F4NUJ6|TRM5_BATDJ  tRNA (guanine(37)-N1)-methyltransferase OS=Batrachochytrium dendrobatidis (strain JAM81 / FGSC 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  493.4   0.0  2.4e-150  2.4e-150      44     426 ..      45     442 ..       9     446 .. 0.89
+
+>> sp|F6VSS6|TRM5_XENTR  tRNA (guanine(37)-N1)-methyltransferase OS=Xenopus tropicalis OX=8364 GN=trmt5 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  493.2   2.2  2.8e-150  2.8e-150      21     426 ..      78     466 ..      33     470 .. 0.84
+
+>> sp|Q9D0C4|TRM5_MOUSE  tRNA (guanine(37)-N1)-methyltransferase OS=Mus musculus OX=10090 GN=Trmt5 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  491.6   0.0  8.9e-150  8.9e-150      18     426 ..      79     470 ..      18     474 .. 0.86
+
+>> sp|B8A5G9|TRM5_DANRE  tRNA (guanine(37)-N1)-methyltransferase OS=Danio rerio OX=7955 GN=trmt5 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  487.4   0.0  1.6e-148  1.6e-148      13     426 ..      47     458 ..      16     463 .. 0.83
+
+>> sp|A8N339|TRM5_COPC7  tRNA (guanine(37)-N1)-methyltransferase OS=Coprinopsis cinerea (strain Okayama-7 / 130 / ATCC M
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  487.1   0.0    2e-148    2e-148      39     426 ..      47     456 ..       9     457 .. 0.87
+
+>> sp|Q4WX30|TRM5_ASPFU  tRNA (guanine(37)-N1)-methyltransferase OS=Neosartorya fumigata (strain ATCC MYA-4609 / Af293 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  486.8   0.0  2.4e-148  2.4e-148      23     425 ..      37     478 ..       4     479 .. 0.86
+
+>> sp|F7GSQ4|TRM5_MACMU  tRNA (guanine(37)-N1)-methyltransferase OS=Macaca mulatta OX=9544 GN=TRMT5 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  485.3   0.2  6.8e-148  6.8e-148      17     428 ..      85     479 ..      20     482 .. 0.84
+
+>> sp|Q8TFG7|TRM5_SCHPO  tRNA (guanine(37)-N1)-methyltransferase OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  484.5   0.0  1.3e-147  1.3e-147      21     426 ..      33     447 ..       4     450 .. 0.85
+
+>> sp|Q93YU6|TRM51_ARATH  tRNA (guanine(37)-N1)-methyltransferase 1 OS=Arabidopsis thaliana OX=3702 GN=At3g56120 PE=2 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  484.2   0.0  1.5e-147  1.5e-147      26     425 ..      16     467 ..       2     468 .. 0.92
+
+>> sp|Q95KJ2|TRM5_MACFA  tRNA (guanine(37)-N1)-methyltransferase OS=Macaca fascicularis OX=9541 GN=TRMT5 PE=2 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  483.8   0.1  2.1e-147  2.1e-147      17     428 ..      85     479 ..      20     482 .. 0.85
+
+>> sp|Q32P41|TRM5_HUMAN  tRNA (guanine(37)-N1)-methyltransferase OS=Homo sapiens OX=9606 GN=TRMT5 PE=1 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  483.1   0.2  3.2e-147  3.2e-147      17     427 ..      85     478 ..      22     482 .. 0.85
+
+>> sp|F6HH45|TRM52_VITVI  tRNA (guanine(37)-N1)-methyltransferase 2 OS=Vitis vinifera OX=29760 GN=VIT_11s0016g04350 PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  482.3   0.0  5.6e-147  5.6e-147      21     429 ..      12     501 ..       3     503 .. 0.93
+
+>> sp|F5HAU9|TRM5_NEUCR  tRNA (guanine(37)-N1)-methyltransferase OS=Neurospora crassa (strain ATCC 24698 / 74-OR23-1A / 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  479.2   0.0  4.9e-146  4.9e-146      17     426 ..      37     474 ..       1     475 [. 0.87
+
+>> sp|B5DPF1|TRM5_DROPS  tRNA (guanine(37)-N1)-methyltransferase OS=Drosophila pseudoobscura pseudoobscura OX=46245 GN=G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  477.1   1.0  2.1e-145  2.1e-145      37     427 ..      30     412 ..       7     416 .. 0.88
+
+>> sp|Q6CA67|TRM5_YARLI  tRNA (guanine(37)-N1)-methyltransferase OS=Yarrowia lipolytica (strain CLIB 122 / E 150) OX=284
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  477.2   0.4    2e-145    2e-145      13     426 ..      29     504 ..       1     508 [. 0.87
+
+>> sp|C4YH95|TRM5_CANAW  tRNA (guanine(37)-N1)-methyltransferase OS=Candida albicans (strain WO-1) OX=294748 GN=TRM5 PE=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  470.2   0.6  2.6e-143  2.6e-143      41     426 ..      42     448 ..       6     449 .. 0.87
+
+>> sp|C7YK87|TRM5_NECH7  tRNA (guanine(37)-N1)-methyltransferase OS=Nectria haematococca (strain 77-13-4 / ATCC MYA-4622
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  469.8   0.0  3.6e-143  3.6e-143      14     425 ..      24     463 ..       1     465 [. 0.86
+
+>> sp|Q59TN1|TRM5_CANAL  tRNA (guanine(37)-N1)-methyltransferase OS=Candida albicans (strain SC5314 / ATCC MYA-2876) OX=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  469.6   1.2  4.1e-143  4.1e-143      38     426 ..      39     448 ..       3     449 .. 0.87
+
+>> sp|D0NLC2|TRM5_PHYIT  tRNA (guanine(37)-N1)-methyltransferase OS=Phytophthora infestans (strain T30-4) OX=403677 GN=P
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  468.2   0.5  1.1e-142  1.1e-142      39     428 ..      30     393 ..       5     396 .. 0.88
+
+>> sp|Q8IRE4|TRM5_DROME  tRNA (guanine(37)-N1)-methyltransferase OS=Drosophila melanogaster OX=7227 GN=CG32281 PE=2 SV=2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  466.2   0.6  4.4e-142  4.4e-142      50     425 ..      53     433 ..       8     438 .. 0.85
+
+>> sp|P38793|TRM5_YEAST  tRNA (guanine(37)-N1)-methyltransferase OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  462.7   0.3  5.2e-141  5.2e-141      21     421 ..      44     499 ..       8     499 .. 0.84
+
+>> sp|Q7Q5Z3|TRM5_ANOGA  tRNA (guanine(37)-N1)-methyltransferase OS=Anopheles gambiae OX=7165 GN=AGAP006124 PE=3 SV=4
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  460.7   2.0  2.1e-140  2.1e-140      34     429 ..      60     441 ..      19     443 .. 0.88
+
+>> sp|Q4PHW2|TRM5_USTMA  tRNA (guanine(37)-N1)-methyltransferase OS=Ustilago maydis (strain 521 / FGSC 9021) OX=237631 G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  457.2   0.0  2.4e-139  2.4e-139      13     427 ..      13     623 ..       1     627 [. 0.88
+
+>> sp|C8VJ35|TRM5_EMENI  tRNA (guanine(37)-N1)-methyltransferase OS=Emericella nidulans (strain FGSC A4 / ATCC 38163 / C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  456.7   0.0  3.3e-139  3.3e-139      31     425 ..      47     477 ..       1     478 [. 0.84
+
+>> sp|F6H2F8|TRM51_VITVI  tRNA (guanine(37)-N1)-methyltransferase 1 OS=Vitis vinifera OX=29760 GN=VIT_19s0014g03930 PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  455.5   0.2  7.9e-139  7.9e-139      23     427 ..     190     605 ..      91     608 .. 0.86
+
+>> sp|Q16VC0|TRM5_AEDAE  tRNA (guanine(37)-N1)-methyltransferase OS=Aedes aegypti OX=7159 GN=AAEL009603 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  452.9   0.5  4.9e-138  4.9e-138      59     425 ..      80     431 ..      18     437 .. 0.89
+
+>> sp|Q4QEY9|TRM5_LEIMA  tRNA (guanine(37)-N1)-methyltransferase OS=Leishmania major OX=5664 GN=LMJF_16_0310 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  448.7   0.0  9.1e-137  9.1e-137      21     425 ..     164     649 ..       8     654 .. 0.90
+
+>> sp|A4HWT0|TRM5_LEIIN  tRNA (guanine(37)-N1)-methyltransferase OS=Leishmania infantum OX=5671 GN=LINJ_16_0320 PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  447.7   0.0  1.8e-136  1.8e-136      16     424 ..     159     648 ..      12     654 .. 0.90
+
+>> sp|A4H8F7|TRM5_LEIBR  tRNA (guanine(37)-N1)-methyltransferase OS=Leishmania braziliensis OX=5660 GN=LBRM_16_0320 PE=3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  440.0   0.0  3.8e-134  3.8e-134      16     424 ..     159     654 ..      44     660 .. 0.89
+
+>> sp|B3L2G0|TRM5_PLAKH  tRNA (guanine(37)-N1)-methyltransferase OS=Plasmodium knowlesi (strain H) OX=5851 GN=PKH_071150
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  438.7   8.4  9.8e-134  9.8e-134      13     420 ..     160     697 ..     143     698 .. 0.89
+
+>> sp|Q5KBP2|TRM5_CRYNJ  tRNA (guanine(37)-N1)-methyltransferase OS=Cryptococcus neoformans var. neoformans serotype D (
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  435.8   0.0  7.5e-133  7.5e-133      46     425 ..     104     541 ..      29     543 .. 0.86
+
+>> sp|A5K6L0|TRM5_PLAVS  tRNA (guanine(37)-N1)-methyltransferase OS=Plasmodium vivax (strain Salvador I) OX=126793 GN=PV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  435.5   2.3  9.1e-133  9.1e-133      23     423 ..     118     688 ..      26     692 .. 0.91
+
+>> sp|Q54WD6|TRM5_DICDI  tRNA (guanine(37)-N1)-methyltransferase OS=Dictyostelium discoideum OX=44689 GN=trmt5 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  435.9   5.0  6.7e-133  6.7e-133      38     420 ..      26     380 ..       3     391 .. 0.88
+   2 ?   -1.7   0.4       4.3       4.3      50      77 ..     418     444 ..     384     459 .. 0.31
+
+>> sp|A9T6G5|TRM5_PHYPA  tRNA (guanine(37)-N1)-methyltransferase OS=Physcomitrella patens subsp. patens OX=3218 GN=PHYPA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  435.3   0.0    1e-132    1e-132      35     412 ..      32     445 ..      11     456 .. 0.89
+
+>> sp|F7A355|TRM5_CIOIN  tRNA (guanine(37)-N1)-methyltransferase OS=Ciona intestinalis OX=7719 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  434.0   0.6  2.6e-132  2.6e-132      28     427 ..      53     441 ..      12     445 .. 0.83
+
+>> sp|Q6NQ64|TRM52_ARATH  tRNA (guanine(37)-N1)-methyltransferase 2 OS=Arabidopsis thaliana OX=3702 GN=At4g27340 PE=2 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  429.0   0.0  8.4e-131  8.4e-131      26     427 ..     200     614 ..      97     617 .. 0.85
+
+>> sp|E3KWE1|TRM5_PUCGT  tRNA (guanine(37)-N1)-methyltransferase OS=Puccinia graminis f. sp. tritici (strain CRL 75-36-7
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  429.0   0.0  8.9e-131  8.9e-131      23     427 ..      91     505 ..      35     509 .. 0.83
+
+>> sp|E3WPP8|TRM5_ANODA  tRNA (guanine(37)-N1)-methyltransferase OS=Anopheles darlingi OX=43151 GN=AND_009348 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  425.4   0.4  1.1e-129  1.1e-129      40     415 ..      35     393 ..       9     409 .. 0.87
+   2 ?   -2.6   4.1       8.4       8.4      33     106 ..     417     492 ..     395     500 .. 0.37
+
+>> sp|C5XX79|TRM5_SORBI  tRNA (guanine(37)-N1)-methyltransferase OS=Sorghum bicolor OX=4558 GN=Sb04g025390 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  418.5   0.0  1.3e-127  1.3e-127      39     425 ..      28     455 ..       2     460 .. 0.90
+
+>> sp|C0H537|TRM5_PLAF7  tRNA (guanine(37)-N1)-methyltransferase OS=Plasmodium falciparum (isolate 3D7) OX=36329 GN=PFI0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  406.7  61.6  5.2e-124  5.2e-124      45     419 ..     245     779 ..     107     781 .] 0.87
+
+>> sp|E0VLV0|TRM5_PEDHC  tRNA (guanine(37)-N1)-methyltransferase OS=Pediculus humanus subsp. corporis OX=121224 GN=PHUM2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  410.4  13.4  3.7e-125  3.7e-125      15     422 ..       5     396 ..       2     404 .. 0.86
+
+>> sp|C0NUP2|TRM5_AJECG  tRNA (guanine(37)-N1)-methyltransferase OS=Ajellomyces capsulatus (strain G186AR / H82 / ATCC M
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.3   0.0   3.2e-05   3.2e-05      50     116 ..      85     168 ..      29     169 .. 0.64
+   2 !  386.0   0.0  9.6e-118  9.6e-118     140     425 ..     168     482 ..     166     483 .. 0.91
+
+>> sp|B7FTW3|TRM51_PHATC  tRNA (guanine(37)-N1)-methyltransferase 1 OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  400.1   0.4  5.1e-122  5.1e-122      34     424 ..      42     413 ..      12     419 .. 0.81
+
+>> sp|Q4DPN8|TRM52_TRYCC  tRNA (guanine(37)-N1)-methyltransferase 2 OS=Trypanosoma cruzi (strain CL Brener) OX=353153 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  399.0   0.0  1.1e-121  1.1e-121      71     428 ..     112     497 ..      48     500 .. 0.91
+
+>> sp|Q4CNL4|TRM51_TRYCC  tRNA (guanine(37)-N1)-methyltransferase 1 OS=Trypanosoma cruzi (strain CL Brener) OX=353153 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  398.4   0.0  1.6e-121  1.6e-121      73     428 ..     114     499 ..      49     502 .. 0.91
+
+>> sp|A2E5K9|TRM5_TRIVA  tRNA (guanine(37)-N1)-methyltransferase OS=Trichomonas vaginalis OX=5722 GN=TVAG_038970 PE=3 SV
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  396.5   0.0  6.5e-121  6.5e-121      40     424 ..      28     369 ..       4     374 .. 0.85
+
+>> sp|Q0UVC3|TRM5_PHANO  tRNA (guanine(37)-N1)-methyltransferase OS=Phaeosphaeria nodorum (strain SN15 / ATCC MYA-4574 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  173.4   0.0   3.2e-53   3.2e-53      36     212 ..      30     219 ..       5     220 .. 0.84
+   2 !  211.0   0.0   1.2e-64   1.2e-64     239     424 ..     226     439 ..     221     441 .. 0.91
+
+>> sp|D3BT31|TRM5_POLPP  tRNA (guanine(37)-N1)-methyltransferase OS=Polysphondylium pallidum (strain ATCC 26659 / Pp 5 /
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  384.7   1.5  2.4e-117  2.4e-117      38     424 ..      20     386 ..       3     392 .. 0.85
+
+>> sp|B8BQY5|TRM5_THAPS  tRNA (guanine(37)-N1)-methyltransferase OS=Thalassiosira pseudonana OX=35128 GN=THAPSDRAFT_2680
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  384.1   0.0  3.7e-117  3.7e-117      40     427 ..      57     445 ..      29     449 .. 0.84
+
+>> sp|D5GN29|TRM5_TUBMM  tRNA (guanine(37)-N1)-methyltransferase OS=Tuber melanosporum (strain Mel28) OX=656061 GN=TRM5 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  377.6   0.0  3.5e-115  3.5e-115      27     426 ..      29     425 ..       5     428 .. 0.89
+
+>> sp|A8WHT1|TRM5_CAEEL  tRNA (guanine(37)-N1)-methyltransferase OS=Caenorhabditis elegans OX=6239 GN=C53A5.17 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  368.4   0.6  2.1e-112  2.1e-112      60     425 ..      72     447 ..      11     451 .. 0.83
+
+>> sp|C4M572|TRM5_ENTHI  tRNA (guanine(37)-N1)-methyltransferase OS=Entamoeba histolytica OX=5759 GN=EHI_111740 PE=3 SV=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  355.6   6.1  1.7e-108  1.7e-108      78     419 ..      60     364 ..       5     373 .. 0.89
+
+>> sp|A0CC46|TRM5_PARTE  tRNA (guanine(37)-N1)-methyltransferase OS=Paramecium tetraurelia OX=5888 GN=GSPATT00037147001 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  354.6   4.6  3.2e-108  3.2e-108      67     423 ..      44     382 ..       2     388 .. 0.88
+
+>> sp|B7G5J1|TRM52_PHATC  tRNA (guanine(37)-N1)-methyltransferase 2 OS=Phaeodactylum tricornutum (strain CCAP 1055/1) OX
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  321.5   0.0   3.7e-98   3.7e-98      33     416 ..     165     587 ..      77     587 .. 0.83
+
+>> sp|Q4MYY2|TRM5_THEPA  tRNA (guanine(37)-N1)-methyltransferase OS=Theileria parva OX=5875 GN=TP03_0709 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.1   5.4   3.7e-39   3.7e-39      31     210 ..      87     272 ..      34     274 .. 0.71
+   2 !  191.7   0.0   8.7e-59   8.7e-59     231     425 ..     274     468 ..     270     470 .. 0.87
+
+>> sp|Q4UB74|TRM5_THEAN  tRNA (guanine(37)-N1)-methyltransferase OS=Theileria annulata OX=5874 GN=TA17855 PE=3 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  313.3   7.8   1.1e-95   1.1e-95      38     426 ..      81     462 ..       2     463 .. 0.80
+
+>> sp|Q8SVV3|TRM5_ENCCU  tRNA (guanine(37)-N1)-methyltransferase OS=Encephalitozoon cuniculi (strain GB-M1) OX=284813 GN
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  285.8   0.0   2.4e-87   2.4e-87      94     415 ..      71     350 ..      42     354 .. 0.91
+
+>> sp|A8B4Q0|TRM5_GIAIC  tRNA (guanine(37)-N1)-methyltransferase OS=Giardia intestinalis (strain ATCC 50803 / WB clone C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  261.7   0.0   5.1e-80   5.1e-80     122     421 ..     139     439 ..     106     447 .. 0.88
+
+>> sp|Q9V0Q0|TRM5B_PYRAB  tRNA (guanine(37)-N1)-methyltransferase Trm5b OS=Pyrococcus abyssi (strain GE5 / Orsay) OX=272
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  219.1   0.0   4.4e-67   4.4e-67     115     417 ..      66     328 ..      46     330 .. 0.88
+
+>> sp|Q58293|TRM5B_METJA  tRNA (guanine(37)-N1)-methyltransferase Trm5b OS=Methanocaldococcus jannaschii (strain ATCC 43
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  180.9   1.9   1.7e-55   1.7e-55     110     419 ..      71     335 ..       6     336 .. 0.82
+
+>> sp|Q53H54|TYW2_HUMAN  tRNA wybutosine-synthesizing protein 2 homolog OS=Homo sapiens OX=9606 GN=TRMT12 PE=1 SV=1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.0   6.6e-17   6.6e-17     182     294 ..     185     298 ..     181     441 .. 0.80
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (431 nodes)
+Target sequences:                           62  (48422 residues searched)
+Passed MSV filter:                        62  (1); expected 62.0 (1)
+Passed bias filter:                       62  (1); expected 62.0 (1)
+Passed Vit filter:                        62  (1); expected 62.0 (1)
+Passed Fwd filter:                        62  (1); expected 62.0 (1)
+Initial search space (Z):                 62  [actual number of targets]
+Domain search space  (domZ):              62  [number of targets reported over threshold]
+# CPU time: 0.39u 0.01s 00:00:00.40 Elapsed: 00:00:00.39
+# Mc/sec: 53.51
+//
+[ok]

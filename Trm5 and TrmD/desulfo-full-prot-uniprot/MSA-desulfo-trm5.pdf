@@ -1,0 +1,103 @@
+CLUSTAL multiple sequence alignment by MUSCLE (3.8)
+
+
+trm5-human           -MVLWILWRPFGFSGRFLKLESHSITESKSLIPVAWTSLTQMLLEAPGIFLLGQRKRFST
+Desulfofustis        -MIFSVL----------------------TIFP---------------------------
+Desulfotalea         -MLFNIL----------------------TIFP---------------------------
+Desulforhopalus      -MIFDII----------------------TIFP---------------------------
+Desulfobulbus        -MDFDIL----------------------TIFP---------------------------
+uncultured           -MRFSIL----------------------SIFP---------------------------
+Desulfopila          MITFDIL----------------------TIFP---------------------------
+                      : : ::                      :::*
+
+trm5-human           MPETETHERETELFSPPSDVRGMTKLDRTAFKKTVNIPVLKVRKEIVSKLMRSLKRAALQ
+Desulfofustis        -----------DLFDSPLR-DGIVG--KAIGERKISVDLVNIRQFATDR-----------
+Desulfotalea         -----------NLLSSPLE-EGILK--RAQNSGSIDVNIVDIRQYASDK-----------
+Desulforhopalus      -----------ELLQSPLQ-EGIIR--RALAKEQIEANIINLRDFASDR-----------
+Desulfobulbus        -----------DFFVSPLQ-EGIVR--RAQADGKIRVRVHNLRDFAVDR-----------
+uncultured           -----------HLLDSPLQ-ESIIG--RARSDGHVVIDILDIRTFTDDA-----------
+Desulfopila          -----------DLLASPFN-EGILR--RARQDGHIDIHTTNIRDFALDK-----------
+                                 :: .*    .:    .:  .  :     .:*    .
+
+trm5-human           RPGIRRVIEDPEDKESRLIMLDPYKIFTHDSFEKAELSVLEQLNVSPQISKYNLELTYEH
+Desulfofustis        ----HATTDDR-------------------PYGGGEGMVM--------------------
+Desulfotalea         ----HSTTDAR-------------------PYGGGEGMVM--------------------
+Desulforhopalus      ----HQMTDDR-------------------PFGGGEGMVM--------------------
+Desulfobulbus        ----HRMTDDR-------------------PFGGGEGMVM--------------------
+uncultured           ----QHTTDDR-------------------PYGGGEGMVM--------------------
+Desulfopila          ----HSMTDDR-------------------PFGGGEGMVM--------------------
+                         .   :                     .:  .*  *:
+
+trm5-human           FKSEEILRAVLPEGQDVTSGFSRIGHIAHLNLRDHQLSFKHLIGQVMIDKNPGITSAVNK
+Desulfofustis        -KPEPLVRAL----QQVRTTARPSARVVLLSPQGRL--LRQDIAEELVDPSGQLILICGR
+Desulfotalea         -KAEPLSLAV----QDIKK--KDAGRVIFLTPQGRK--YTQRVAEELAQES-SITLVCGR
+Desulforhopalus      -KAEPLAAAV-----RSRTGKHAEATVVLLTPQGRP--YTQRVAEEFAGRK-HLILICGR
+Desulfobulbus        -KPEPLAACV----QAARR-HEGESRVILLSPKGKQ--FRQAAAERLAEYD-QLLFVCGR
+uncultured           -KPEPLARAV----AHARTGDESPARVILLSPQGHL--FTQGLARQLSQEK-HLILVCGR
+Desulfopila          -KPEPLAAAV----EQVRN-HRGAGKVILMSPQGTM--FTQELAEKLAEEE-HLILVCGR
+                      *.* :  .:              . :  :. ..      :  .  :   .  :    ..
+
+trm5-human           INNIDNMYRNFQMEVLSGEQNMMTKVRENNYTYEFDFSKVYWNPRLSTEHSRITELLKPG
+Desulfofustis        YEGVDERFR-----------------------------------------RHVDDEISIG
+Desulfotalea         YEGVDERFCE----------------------------------------KYIDDEISLG
+Desulforhopalus      YEGVDERFVD----------------------------------------HYVDEEISIG
+Desulfobulbus        YEGVDERFCD----------------------------------------RYVDEELSIG
+uncultured           YEGVDERFRS----------------------------------------DCVDDEISIG
+Desulfopila          YEGVDERFRA----------------------------------------TYVDEEISIG
+                      :.:*: :                                            : : :. *
+
+trm5-human           DVLFDVFAGVGPFAIPVAKKNCTVFANDLNPESHKWLLYNCKLNKVDQKVKVFNLDGKDF
+Desulfofustis        DYVLT---GGELAALVIIDAVTRLIPGVLGCRA--------------------SAENDSF
+Desulfotalea         DFILT---GGELAALMVVDSVSRILPGVLGCDA--------------------SVTNDTF
+Desulforhopalus      DYILT---GGELGAMVIIDSVTRLLPGVLGCSD--------------------SVAKDSF
+Desulfobulbus        DYVLT---GGELAALVVLDAVCRLLPGVLGCGD--------------------SVTNESF
+uncultured           DYVLT---GGELPAMVVIDTITRLLPGVLGCPQ--------------------SAEQDTF
+Desulfopila          DYILT---GGELAAMVVIDAVTRLVPGVLGCSD--------------------SADKDTF
+                     * ::    *    *: : .    :... *.                       .   . *
+
+trm5-human           LQGPVKEELMQLLGLSKERKPSVHVVMNLPAKAIEFLSAFKWLLDGQPCSSEFLPIVHCY
+Desulfofustis        CGN--------LLKHPQYTRPRVFEGQNVPDV----------LLSGDHHKIGEHRFLAAV
+Desulfotalea         SRH--------LLKHPQYTRPRIFEGLEVPDV----------LLSGDHQAIEDYRFIASV
+Desulforhopalus      SRS--------LLKHSQYTRPRYFEQVEVPEA----------LLSGDHARIEKFRFVESV
+Desulfobulbus        SCG--------LLKHKQYTRPRIFEELPVPEV----------LLSGDHAAIARHRFVESV
+uncultured           SRG--------LLKHPQYTRPRSFNGHPVPPE----------LLGGNHREIESYRFLTAV
+Desulfopila          SRN--------LLKHPQYTRPRVWNEMEVPDE----------LLSGNHEVIEKMRFLESV
+                                **   :  .*       :*            **.*:        :: .
+
+trm5-human           SFSKDANPAEDVRQRAGAVLGISLEACSSVHLVRNVAPNKEMLCITFQIPASVLYKNQTR
+Desulfofustis        RQTLQRRPQ--------------------------------------------LLAGRQF
+Desulfotalea         ERTFHKRPG--------------------------------------------LLKKEIF
+Desulforhopalus      KKTMKRRPD--------------------------------------------LIAAETF
+Desulfobulbus        QLTLDRRPD--------------------------------------------LLATVEF
+uncultured           RRTLERRPD--------------------------------------------LLATARF
+Desulfopila          RRTLARRPD--------------------------------------------LLKLETF
+                       :   .*                                             *
+
+trm5-human           NPENHEDPPLKRQRTAEAFSDEKTQIVSNT--
+Desulfofustis        SAP--ETALLQRHGLWPEIEALLNRGERQ---
+Desulfotalea         NKR--EKKLLKQHNLYSKIVALQDID------
+Desulforhopalus      TSE--ERKLLKQHNLLDRIEQIKTKAGPTG--
+Desulfobulbus        SPG--EQKILRQTGLLERIQSLVRQQRSQSPQ
+uncultured           TSD--EKRLLARHGLADKVAALAGTDRL----
+Desulfopila          SDS--EKKLLRRHGLYAAVKSLQADSNSTV--
+                     .    *   * .      .
+
+
+Tree data 
+
+                     (
+                     (
+                     trm5-human:0.59666,
+                     Desulfotalea:0.21211)
+                     :0.00744,
+                     (
+                     (
+                     Desulfofustis:0.20573,
+                     uncultured:0.19978)
+                     :0.01181,
+                     Desulfopila:0.17913)
+                     :0.00886,
+                     (
+                     Desulforhopalus:0.19518,
+                     Desulfobulbus:0.19698)
+                     :0.00898);

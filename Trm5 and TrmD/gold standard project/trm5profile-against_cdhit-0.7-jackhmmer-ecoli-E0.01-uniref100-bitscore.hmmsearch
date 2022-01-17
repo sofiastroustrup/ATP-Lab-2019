@@ -1,0 +1,704 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  clustalo-swissprot-trm5-19-07-30.cln.msa.hmmbuild
+# target sequence database:        cdhit-0.7-jackhmmer-ecoli-E0.01-uniref100-19_07_30.fasta
+# output directed to file:         trm5profile-against_cdhit-0.7-jackhmmer-ecoli-E0.01-uniref100-bitscore.hmmsearch
+# per-seq hits tabular output:     trm5profile-against_cdhit-0.7-jackhmmer-ecoli-E0.01-uniref100-bitscore.tblout.hmmsearch
+# show alignments in output:       no
+# sequence reporting threshold:    score >= 1e-20
+# Max sensitivity mode:            on [all heuristic filters off]
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       clustalo-swissprot-trm5-19-07-30.cln  [M=431]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                -----------
+  ------ inclusion threshold ------
+        2.6    5.2   0.1        3.6    4.8   0.1    1.1  1  UniRef100_A0A1A9HXT9     tRNA (guanine-N(1)-)-methyltransfera
+        2.8    5.2   0.0          3    5.1   0.0    1.1  1  UniRef100_A0A1F4X8W2     tRNA (guanine-N(1)-)-methyltransfera
+          4    4.6   0.0        5.3    4.2   0.0    1.3  1  UniRef100_A0A1H3GUR2     tRNA (guanine-N(1)-)-methyltransfera
+        6.1    4.0   0.1         13    2.9   0.0    1.5  1  UniRef100_A0A084U471     tRNA (guanine-N(1)-)-methyltransfera
+        6.6    3.9   0.5        7.2    3.8   0.5    1.2  1  UniRef100_A0A0G0BW01     tRNA (guanine-N(1)-)-methyltransfera
+         13    3.0   0.0         15    2.7   0.0    1.1  1  UniRef100_A0A0G1V6S4     tRNA (guanine-N(1)-)-methyltransfera
+         13    2.9   0.1         28    1.8   0.0    1.6  2  UniRef100_A0A397RYY1     tRNA (guanine-N(1)-)-methyltransfera
+         14    2.9   0.0         19    2.4   0.0    1.2  1  UniRef100_A0A1J4S013     tRNA (guanine-N(1)-)-methyltransfera
+         14    2.8   0.1         50    1.0   0.1    1.7  2  UniRef100_A0A2M7TQA4     tRNA (guanine-N(1)-)-methyltransfera
+         18    2.5   0.0         18    2.5   0.0    1.2  1  UniRef100_A0A3D0UU26     tRNA (guanine-N(1)-)-methyltransfera
+         20    2.4   0.0         30    1.8   0.0    1.2  1  UniRef100_A0A2D8JJU4     tRNA (guanine-N(1)-)-methyltransfera
+         20    2.3   0.0         29    1.8   0.0    1.1  1  UniRef100_A0A3E0QC53     tRNA (guanine-N(1)-)-methyltransfera
+         20    2.3   0.0         27    1.9   0.0    1.1  1  UniRef100_A0A101J1N8     tRNA (guanine-N(1)-)-methyltransfera
+         20    2.3   0.3         46    1.1   0.0    1.5  2  UniRef100_R4RP56         tRNA (guanine-N(1)-)-methyltransfera
+         21    2.3   0.1         44    1.2   0.0    1.5  1  UniRef100_A0A1G2LVR8     tRNA (guanine-N(1)-)-methyltransfera
+         21    2.2   0.1         20    2.3   0.1    1.1  1  UniRef100_A0A0J7KZG5     Trna guanine-n-methyltransferase n=1
+         22    2.2   0.1         74    0.5   0.0    1.6  2  UniRef100_A0A1F5X4Y9     tRNA (guanine-N(1)-)-methyltransfera
+         23    2.1   0.1         29    1.8   0.1    1.1  1  UniRef100_V8C9J3         tRNA (guanine-N(1)-)-methyltransfera
+         24    2.0   0.0         38    1.4   0.0    1.2  1  UniRef100_A0A1G0CHE5     tRNA (guanine-N(1)-)-methyltransfera
+         25    2.0   0.1         29    1.8   0.1    1.2  1  UniRef100_A0A1F4S0P9     tRNA (guanine-N(1)-)-methyltransfera
+         25    2.0   0.1         89    0.2   0.0    1.5  2  UniRef100_A0A2M6WKY7     tRNA (guanine-N(1)-)-methyltransfera
+         26    2.0   0.0         37    1.4   0.0    1.2  1  UniRef100_A0A2E5AI78     tRNA (guanine-N(1)-)-methyltransfera
+         26    1.9   0.0         35    1.5   0.0    1.1  1  UniRef100_A0A1J4Z3W5     tRNA (guanine-N(1)-)-methyltransfera
+         27    1.9   0.1         34    1.6   0.1    1.1  1  UniRef100_A0A2H0YD38     tRNA (guanine-N(1)-)-methyltransfera
+         28    1.8   0.1         74    0.5   0.0    1.5  2  UniRef100_A0A0G1CHC7     tRNA (guanine-N(1)-)-methyltransfera
+         32    1.6   0.0         45    1.2   0.0    1.2  1  UniRef100_K2AYM2         tRNA (guanine-N(1)-)-methyltransfera
+         33    1.6   0.2         52    1.0   0.1    1.2  1  UniRef100_A0A0G0TC16     tRNA (guanine-N(1)-)-methyltransfera
+         34    1.6   0.0         56    0.9   0.0    1.4  1  UniRef100_A0A2M8FY51     tRNA (guanine-N(1)-)-methyltransfera
+         35    1.5   0.1         54    0.9   0.0    1.3  1  UniRef100_UPI00094CB15B  tRNA (guanosine(37)-N1)-methyltransf
+         38    1.4   0.0         70    0.5   0.0    1.3  1  UniRef100_R5TJY4         tRNA (guanine-N(1)-)-methyltransfera
+         38    1.4   0.0         42    1.3   0.0    1.1  1  UniRef100_A0A381TZJ4     Uncharacterized protein n=1 Tax=mari
+         41    1.3   0.0         79    0.4   0.0    1.3  1  UniRef100_A0A1Z9BB06     tRNA (guanine-N(1)-)-methyltransfera
+         42    1.3   0.2      1e+02   -0.0   0.0    1.4  1  UniRef100_A0A1F9HV13     tRNA (guanine-N(1)-)-methyltransfera
+         42    1.3   0.0         39    1.4   0.0    1.1  1  UniRef100_A0A397FPC7     tRNA (guanine-N(1)-)-methyltransfera
+         43    1.2   0.0         73    0.5   0.0    1.2  1  UniRef100_A0A101WLW9     tRNA (guanine-N(1)-)-methyltransfera
+         43    1.2   3.7         18    2.5   0.7    1.9  1  UniRef100_A0A2E0D750     tRNA (guanine-N(1)-)-methyltransfera
+         43    1.2   0.1    1.1e+02   -0.1   0.0    1.4  1  UniRef100_A0A1F6R4B8     tRNA (guanine-N(1)-)-methyltransfera
+         44    1.2   0.0         72    0.5   0.0    1.3  1  UniRef100_A5KJ03         tRNA (guanine-N(1)-)-methyltransfera
+         46    1.1   0.0         79    0.4   0.0    1.2  1  UniRef100_A0A2E5DGL5     tRNA (guanine-N(1)-)-methyltransfera
+         46    1.1   0.1         58    0.8   0.1    1.1  1  UniRef100_UPI000C28033C  tRNA (guanosine(37)-N1)-methyltransf
+         47    1.1   0.0         59    0.8   0.0    1.2  1  UniRef100_A0A1G2DGZ1     tRNA (guanine-N(1)-)-methyltransfera
+         47    1.1   0.0         75    0.4   0.0    1.3  1  UniRef100_A0A1F9WXD4     tRNA (guanine-N(1)-)-methyltransfera
+         50    1.0   0.0         51    1.0   0.0    1.2  1  UniRef100_A0A078LAY5     tRNA (guanine-N(1)-)-methyltransfera
+         50    1.0   0.5         94    0.1   0.6    1.3  1  UniRef100_A0A2M8KWU1     tRNA (guanine-N(1)-)-methyltransfera
+         50    1.0   0.0         74    0.4   0.0    1.2  1  UniRef100_R7FJG7         tRNA (guanine-N(1)-)-methyltransfera
+         52    1.0   0.0         72    0.5   0.0    1.2  1  UniRef100_A0A2H0NCC6     tRNA (guanine-N(1)-)-methyltransfera
+         52    1.0   0.1         51    1.0   0.1    1.0  1  UniRef100_D3AUX3         tRNA (guanine-N(1)-)-methyltransfera
+         52    1.0   0.0         81    0.3   0.0    1.2  1  UniRef100_A0A0G0MXV7     tRNA (guanine-N(1)-)-methyltransfera
+         53    0.9   0.1    1.5e+02   -0.5   0.0    1.4  2  UniRef100_A0A1T4LQY8     tRNA (guanine-N(1)-)-methyltransfera
+         53    0.9   0.0         98    0.1   0.0    1.4  1  UniRef100_A0A2P7Q180     tRNA (guanine-N(1)-)-methyltransfera
+         53    0.9   0.1         71    0.5   0.1    1.2  1  UniRef100_A0A3D4SDZ7     tRNA (guanine-N(1)-)-methyltransfera
+         54    0.9   0.1      1e+02   -0.0   0.0    1.3  1  UniRef100_A0A288DC70     tRNA (guanine-N(1)-)-methyltransfera
+         54    0.9   0.3         90    0.2   0.3    1.3  1  UniRef100_A0A2M6WGV3     tRNA (guanine-N(1)-)-methyltransfera
+         54    0.9   0.0         69    0.6   0.0    1.1  1  UniRef100_A0A1F6TMV9     tRNA (guanine-N(1)-)-methyltransfera
+         56    0.8   0.3    1.3e+02   -0.4   0.0    1.4  2  UniRef100_A0A2H0UGC0     tRNA (guanine-N(1)-)-methyltransfera
+         57    0.8   0.0         83    0.3   0.0    1.3  1  UniRef100_A0A1W9NZ53     tRNA (guanine-N(1)-)-methyltransfera
+         57    0.8   0.0         76    0.4   0.0    1.2  1  UniRef100_UPI000554EB72  tRNA (guanosine(37)-N1)-methyltransf
+         58    0.8   0.1         91    0.2   0.1    1.2  1  UniRef100_A0A2H0NF47     tRNA (guanine-N(1)-)-methyltransfera
+         59    0.8   0.1    1.9e+02   -0.9   0.0    1.4  2  UniRef100_A0A0E9EWS7     tRNA (guanine-N(1)-)-methyltransfera
+         61    0.7   0.0      1e+02   -0.0   0.0    1.2  1  UniRef100_A0A1F7B3Z9     tRNA (guanine-N(1)-)-methyltransfera
+         63    0.7   0.0         93    0.1   0.0    1.1  1  UniRef100_A0A1V5N0Q2     tRNA (guanine-N(1)-)-methyltransfera
+         64    0.7   0.0         67    0.6   0.0    1.1  1  UniRef100_A0A347VPM7     tRNA (guanine-N(1)-)-methyltransfera
+         64    0.7   0.0         71    0.5   0.0    1.1  1  UniRef100_A0A1V5ZQZ0     tRNA (guanine-N(1)-)-methyltransfera
+         66    0.6   0.0         63    0.7   0.0    1.1  1  UniRef100_A0A2M6X9G3     tRNA (guanine-N(1)-)-methyltransfera
+         66    0.6   0.1    2.2e+02   -1.1   0.0    1.4  2  UniRef100_A0A2N1Q7M2     tRNA (guanine-N(1)-)-methyltransfera
+         69    0.6   0.0         60    0.8   0.0    1.0  1  UniRef100_A0A2G6N7V7     tRNA (Guanosine(37)-N1)-methyltransf
+         70    0.5   0.1    1.8e+02   -0.9   0.0    1.3  2  UniRef100_A0A1G1XW54     tRNA (guanine-N(1)-)-methyltransfera
+         72    0.5   0.3    2.1e+02   -1.0   0.3    1.4  2  UniRef100_A0A0G0RI26     tRNA (guanine-N(1)-)-methyltransfera
+         73    0.5   0.0         97    0.1   0.0    1.1  1  UniRef100_UPI0006BB72EF  tRNA (guanosine(37)-N1)-methyltransf
+         74    0.5   0.0      1e+02   -0.0   0.0    1.2  1  UniRef100_A0A1G2VN45     tRNA (guanine-N(1)-)-methyltransfera
+         75    0.4   0.0         86    0.2   0.0    1.1  1  UniRef100_A0A1B8J6X0     tRNA (guanine-N(1)-)-methyltransfera
+         76    0.4   0.0    1.3e+02   -0.3   0.0    1.2  1  UniRef100_A0A1M6KM45     tRNA (guanine-N(1)-)-methyltransfera
+         77    0.4   0.1         72    0.5   0.1    1.1  1  UniRef100_A0A355S1Q4     tRNA (guanine-N(1)-)-methyltransfera
+         78    0.4   0.0    1.6e+02   -0.6   0.0    1.3  1  UniRef100_A0A0P7ICD1     tRNA (guanine-N(1)-)-methyltransfera
+         79    0.4   0.0      1e+02   -0.0   0.0    1.1  1  UniRef100_A0A2H5XR68     tRNA (guanine-N(1)-)-methyltransfera
+         79    0.4   0.1         98    0.0   0.1    1.2  1  UniRef100_A0A2M7AXR1     tRNA (guanine-N(1)-)-methyltransfera
+         81    0.3   0.1    1.5e+02   -0.5   0.1    1.3  1  UniRef100_A0A1V5VPT8     tRNA (guanine-N(1)-)-methyltransfera
+         83    0.3   0.0         93    0.1   0.0    1.2  1  UniRef100_A0A1V5WSU8     tRNA (guanine-N(1)-)-methyltransfera
+         83    0.3   0.1    1.8e+02   -0.8   0.0    1.3  1  UniRef100_A0A0G0KPG2     tRNA (guanine-N(1)-)-methyltransfera
+         84    0.3   0.1         76    0.4   0.1    1.1  1  UniRef100_UPI000553D58C  tRNA (guanosine(37)-N1)-methyltransf
+         84    0.3   0.0         69    0.5   0.0    1.1  1  UniRef100_K2A1V9         tRNA (guanine-N(1)-)-methyltransfera
+         85    0.3   0.1    2.1e+02   -1.0   0.1    1.3  1  UniRef100_A0A2H0TN34     tRNA (guanine-N(1)-)-methyltransfera
+         87    0.2   0.0    1.3e+02   -0.3   0.0    1.1  1  UniRef100_A0A0S7BUU3     tRNA (guanine-N(1)-)-methyltransfera
+         87    0.2   0.0    1.3e+02   -0.3   0.0    1.2  1  UniRef100_A0A1F4UKZ9     tRNA (guanine-N(1)-)-methyltransfera
+         87    0.2   0.6      2e+02   -1.0   0.5    1.4  1  UniRef100_UPI00031584C0  tRNA (guanosine(37)-N1)-methyltransf
+         88    0.2   0.0    1.3e+02   -0.3   0.0    1.1  1  UniRef100_A0A3M1J2A0     tRNA (Guanosine(37)-N1)-methyltransf
+         89    0.2   0.6         90    0.2   0.6    1.3  1  UniRef100_A0A2H0UPQ9     tRNA (guanine-N(1)-)-methyltransfera
+         90    0.2   0.0    1.2e+02   -0.2   0.0    1.2  1  UniRef100_A0A0G0HU27     tRNA (guanine-N(1)-)-methyltransfera
+         91    0.2   1.0    1.9e+02   -0.9   1.1    1.3  1  UniRef100_A0A1X6QQ37     tRNA (guanine-N(1)-)-methyltransfera
+         91    0.2   0.0    1.3e+02   -0.4   0.0    1.2  1  UniRef100_W4QB75         tRNA (guanine-N(1)-)-methyltransfera
+         91    0.1   0.0    1.5e+02   -0.5   0.0    1.1  1  UniRef100_A0A1J1EBX0     tRNA (guanine-N(1)-)-methyltransfera
+         91    0.1   0.1    1.8e+02   -0.8   0.1    1.3  1  UniRef100_G9X169         tRNA (guanine-N(1)-)-methyltransfera
+         92    0.1   0.5    1.1e+02   -0.1   0.1    1.3  1  UniRef100_B3R0P2         tRNA (guanine-N(1)-)-methyltransfera
+         92    0.1   0.1    2.9e+02   -1.5   0.0    1.4  1  UniRef100_A0A2E4SYS9     tRNA (guanine-N(1)-)-methyltransfera
+         92    0.1   0.1    1.5e+02   -0.5   0.1    1.3  1  UniRef100_R5JAC1         tRNA (guanine-N(1)-)-methyltransfera
+         93    0.1   0.3    2.1e+02   -1.0   0.2    1.4  1  UniRef100_A0A1F5EKD4     tRNA (guanine-N(1)-)-methyltransfera
+         93    0.1   9.9    1.5e+02   -0.6   9.7    1.3  1  UniRef100_A0A3D2MDC2     tRNA (guanine-N(1)-)-methyltransfera
+         94    0.1   0.0      1e+02    0.0   0.0    1.0  1  UniRef100_A0A2M6WZJ8     tRNA (guanine-N(1)-)-methyltransfera
+         95    0.1   0.0    1.5e+02   -0.6   0.0    1.1  1  UniRef100_A0A345UNJ5     tRNA (guanine-N(1)-)-methyltransfera
+         96    0.1   0.0    1.2e+02   -0.2   0.0    1.1  1  UniRef100_A0A358F813     tRNA (guanine-N(1)-)-methyltransfera
+         96    0.1   0.0    1.2e+02   -0.3   0.0    1.2  1  UniRef100_A0A0Q1FXC7     tRNA (guanine-N(1)-)-methyltransfera
+         96    0.1   0.2         83    0.3   0.2    1.0  1  UniRef100_U2QC33         Uncharacterized protein n=1 Tax=Lept
+         97    0.1   0.0    1.2e+02   -0.3   0.0    1.1  1  UniRef100_UPI000A067A39  tRNA (guanosine(37)-N1)-methyltransf
+         97    0.1   0.0    1.5e+02   -0.5   0.0    1.1  1  UniRef100_A0A2U2S5L5     tRNA (guanine-N(1)-)-methyltransfera
+         97    0.1   0.0    1.2e+02   -0.2   0.0    1.1  1  UniRef100_UPI000414A032  tRNA (guanosine(37)-N1)-methyltransf
+         99    0.0   0.3    5.2e+02   -2.3   0.0    1.3  0  UniRef100_A0A1G1Z191     tRNA (guanine-N(1)-)-methyltransfera
+         99    0.0   0.0    1.7e+02   -0.8   0.0    1.2  1  UniRef100_A0A1Z9F2C3     tRNA (guanine-N(1)-)-methyltransfera
+      1e+02    0.0   0.0    1.4e+02   -0.4   0.0    1.2  1  UniRef100_A0A2G6DPX2     tRNA (guanine-N(1)-)-methyltransfera
+      1e+02    0.0   0.1    2.9e+02   -1.5   0.0    1.4  2  UniRef100_A0A1F8GDR7     tRNA (guanine-N(1)-)-methyltransfera
+
+
+Domain annotation for each sequence:
+>> UniRef100_A0A1A9HXT9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Chlamydia sp. 2742-308 TaxID=1806891 RepID=A0A1A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.8   0.1     0.084       3.6     371     423 ..     227     278 ..     190     284 .. 0.63
+
+>> UniRef100_A0A1F4X8W2  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=candidate division WWE3 bacterium RIFOXYD1_FULL_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    5.1   0.0     0.069         3     272     308 ..      78     135 ..      73     218 .. 0.73
+
+>> UniRef100_A0A1H3GUR2  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Lachnobacterium bovis DSM 14045 TaxID=1122142 Re
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.2   0.0      0.12       5.3     266     308 ..      70     212 ..      69     394 .. 0.71
+
+>> UniRef100_A0A084U471  tRNA (guanine-N(1)-)-methyltransferase n=4 Tax=Mycoplasma iowae TaxID=2116 RepID=A0A084U471_MYC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.9   0.0      0.31        13     157     181 ..     142     166 ..     137     172 .. 0.89
+
+>> UniRef100_A0A0G0BW01  tRNA (guanine-N(1)-)-methyltransferase n=3 Tax=Candidatus Moranbacteria TaxID=1752737 RepID=A0A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    3.8   0.5      0.17       7.2      30      97 ..     206     255 ..      72     301 .. 0.59
+
+>> UniRef100_A0A0G1V6S4  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Parcubacteria group TaxID=1794811 RepID=A0A0G1V6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.7   0.0      0.36        15     266     328 ..      90     194 ..      88     241 .. 0.67
+
+>> UniRef100_A0A397RYY1  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Anaeroplasma bactoclasticum TaxID=2088 RepID=A0A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.67        28     318     353 ..      69     104 ..      15     165 .. 0.77
+   2 ?   -1.3   0.1       5.9   2.5e+02     272     281 ..     220     229 ..     153     257 .. 0.65
+
+>> UniRef100_A0A1J4S013  tRNA (guanine-N(1)-)-methyltransferase n=4 Tax=Candidatus Collierbacteria TaxID=1752725 RepID=A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.4   0.0      0.45        19      78     148 ..      66     139 ..      27     145 .. 0.81
+
+>> UniRef100_A0A2M7TQA4  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=bacterium (Candidatus Torokbacteria) CG_4_10_14_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.1       1.2        50      48      82 ..      46      93 ..       9     129 .. 0.51
+   2 ?   -1.1   0.0         5   2.1e+02     156     178 ..     143     165 ..     140     174 .. 0.84
+
+>> UniRef100_A0A3D0UU26  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Patescibacteria group bacterium TaxID=2052139 Re
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.0      0.42        18     265     308 ..       8      66 ..       7     163 .. 0.66
+
+>> UniRef100_A0A2D8JJU4  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Flavobacteriales bacterium TaxID=2021391 RepID=A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0       0.7        30     384     410 ..      23      47 ..       6      54 .. 0.73
+
+>> UniRef100_A0A3E0QC53  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Bacteroidetes bacterium TaxID=1898104 RepID=A0A3
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.0      0.68        29     390     409 ..      27      46 ..      11      50 .. 0.77
+
+>> UniRef100_A0A101J1N8  tRNA (guanine-N(1)-)-methyltransferase n=3 Tax=Synergistales TaxID=649776 RepID=A0A101J1N8_9BAC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.9   0.0      0.63        27     333     380 ..     288     339 ..     254     371 .. 0.75
+
+>> UniRef100_R4RP56  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Phytoplasma australiense TaxID=59748 RepID=R4RP56_PH
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.1   0.0       1.1        46     388     409 ..      25      48 ..       8      52 .. 0.79
+   2 ?   -1.8   0.1       8.6   3.6e+02     110     124 ..     202     216 ..     140     245 .. 0.49
+
+>> UniRef100_A0A1G2LVR8  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Tagabacteria bacterium RIFCSPLOWO2_01
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0         1        44     274     308 ..      77     148 ..      74     206 .. 0.65
+
+>> UniRef100_A0A0J7KZG5  Trna guanine-n-methyltransferase n=1 Tax=Lasius niger TaxID=67767 RepID=A0A0J7KZG5_LASNI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.3   0.1      0.47        20     310     337 ..      54      82 ..      10     163 .. 0.54
+
+>> UniRef100_A0A1F5X4Y9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Giovannonibacteria bacterium RIFCSPLO
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.7        74     389     413 ..      29      53 ..       5      68 .. 0.74
+   2 ?   -1.0   0.0       4.8     2e+02      81      81 ..     187     187 ..      87     225 .. 0.54
+
+>> UniRef100_V8C9J3  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Helicobacter TaxID=209 RepID=V8C9J3_9HELI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.69        29      58     103 ..      90     138 ..      37     177 .. 0.63
+
+>> UniRef100_A0A1G0CHE5  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Fluviicola sp. RIFCSPHIGHO2_12_FULL_43_24 TaxID=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.88        38     389     409 ..      26      46 ..      12      52 .. 0.79
+
+>> UniRef100_A0A1F4S0P9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=candidate division WOR-1 bacterium RIFOXYB2_FULL
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.8   0.1      0.68        29     272     308 ..      72     147 ..      67     237 .. 0.71
+
+>> UniRef100_A0A2M6WKY7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Harrisonbacteria bacterium CG10_big_f
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.4   0.0       6.4   2.7e+02     389     409 ..      31      51 ..       3      59 .. 0.70
+   2 ?    0.2   0.0       2.1        89     277     352 ..      83     209 ..      73     220 .. 0.56
+
+>> UniRef100_A0A2E5AI78  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Flavobacteriales bacterium TaxID=2021391 RepID=A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.88        37     389     410 ..      26      47 ..       7      54 .. 0.76
+
+>> UniRef100_A0A1J4Z3W5  tRNA (guanine-N(1)-)-methyltransferase n=3 Tax=unclassified Candidatus Omnitrophica TaxID=10470
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.5   0.0      0.82        35      38      89 ..      38     102 ..      12     128 .. 0.55
+
+>> UniRef100_A0A2H0YD38  tRNA (guanine-N(1)-)-methyltransferase (Fragment) n=1 Tax=Parcubacteria group bacterium CG08_la
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.6   0.1       0.8        34     381     421 ..      52     105 ..       5     134 .. 0.51
+
+>> UniRef100_A0A0G1CHC7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Giovannonibacteria bacterium GW2011_G
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.7        74     389     412 ..      29      52 ..       2      56 .. 0.71
+   2 ?   -1.9   0.0       8.7   3.7e+02      86     109 ..     181     200 ..     121     217 .. 0.64
+
+>> UniRef100_K2AYM2  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=uncultured bacterium TaxID=77133 RepID=K2AYM2_9BACT
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.2   0.0       1.1        45     357     407 ..      24      79 ..       7     100 .. 0.69
+
+>> UniRef100_A0A0G0TC16  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Magasanikbacteria bacterium GW2011_GW
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.1       1.2        52      70     120 ..     207     258 ..     105     268 .. 0.69
+
+>> UniRef100_A0A2M8FY51  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Deltaproteobacteria bacterium CG_4_9_14_0_2_um_f
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.9   0.0       1.3        56     389     409 ..      26      46 ..       9     107 .. 0.80
+
+>> UniRef100_UPI00094CB15B  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Buchnera aphidicola TaxID=9 RepID=UPI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.9   0.0       1.3        54     319     368 ..      43      89 ..      15     136 .. 0.65
+
+>> UniRef100_R5TJY4  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Clostridium sp. CAG:762 TaxID=1262837 RepID=R5TJY4_9
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.6        70     389     409 ..      26      46 ..      11      51 .. 0.76
+
+>> UniRef100_A0A381TZJ4  Uncharacterized protein n=1 Tax=marine metagenome TaxID=408172 RepID=A0A381TZJ4_9ZZZZ
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.3   0.0      0.99        42     269     308 ..      71     119 ..      68     221 .. 0.68
+
+>> UniRef100_A0A1Z9BB06  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Gammaproteobacteria bacterium TMED104 TaxID=1986
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0       1.9        79     116     154 ..      67     105 ..      55     106 .. 0.88
+
+>> UniRef100_A0A1F9HV13  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Deltaproteobacteria bacterium RIFCSPLOWO2_02_44_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0       2.4     1e+02     390     409 ..      27      46 ..      12      49 .. 0.77
+
+>> UniRef100_A0A397FPC7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=endosymbiont GvMRE of Glomus versiforme TaxID=20
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.4   0.0      0.92        39      78      92 ..     202     216 ..      67     236 .] 0.57
+
+>> UniRef100_A0A101WLW9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Clostridia bacterium BRH_c25 TaxID=1734399 RepID
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.7        73     390     409 ..      27      46 ..       8      50 .. 0.76
+
+>> UniRef100_A0A2E0D750  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=bacterium TaxID=1869227 RepID=A0A2E0D750_9BACT
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    2.5   0.7      0.42        18     307     375 ..     268     373 ..     183     394 .. 0.60
+
+>> UniRef100_A0A1F6R4B8  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Moranbacteria bacterium RBG_19FT_COMB
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.0       2.5   1.1e+02     388     409 ..      23      46 ..       7      51 .. 0.76
+
+>> UniRef100_A5KJ03  tRNA (guanine-N(1)-)-methyltransferase n=7 Tax=Clostridiales TaxID=186802 RepID=A5KJ03_9FIRM
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.7        72     381     410 ..      90     125 ..      44     164 .. 0.59
+
+>> UniRef100_A0A2E5DGL5  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Chloroflexi bacterium TaxID=2026724 RepID=A0A2E5
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0       1.9        79     269     293 ..      16      41 ..      14      89 .. 0.79
+
+>> UniRef100_UPI000C28033C  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Caedibacter taeniospiralis TaxID=2890
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.1       1.4        58     335     382 ..     184     244 ..     165     263 .] 0.62
+
+>> UniRef100_A0A1G2DGZ1  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Lloydbacteria bacterium RIFCSPLOWO2_0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.0       1.4        59     284     308 ..      63     146 ..      55     218 .. 0.54
+
+>> UniRef100_A0A1F9WXD4  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Elusimicrobia bacterium RIFOXYA2_FULL_40_6 TaxID
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0       1.8        75     390     421 ..      63      94 ..       7     118 .. 0.55
+
+>> UniRef100_A0A078LAY5  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Chlamydiaceae TaxID=809 RepID=A0A078LAY5_9CHLA
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.0       1.2        51     315     353 ..      66     104 ..      20     229 .. 0.67
+
+>> UniRef100_A0A2M8KWU1  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Ryanbacteria bacterium CG10_big_fil_r
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.6       2.2        94     356     382 ..      27      63 ..       8     138 .. 0.60
+
+>> UniRef100_R7FJG7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Clostridium sp. CAG:470 TaxID=1262812 RepID=R7FJG7_9
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0       1.7        74      58      84 ..      82     116 ..      15     153 .. 0.51
+
+>> UniRef100_A0A2H0NCC6  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Komeilibacteria bacterium CG11_big_fi
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.7        72      26      78 ..      31      91 ..       7     133 .. 0.47
+
+>> UniRef100_D3AUX3  tRNA (guanine-N(1)-)-methyltransferase (Fragment) n=1 Tax=Hungatella hathewayi DSM 13479 TaxID=5665
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    1.0   0.1       1.2        51      69     100 ..      33      65 ..       4      69 .. 0.45
+
+>> UniRef100_A0A0G0MXV7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Peregrinibacteria bacterium GW2011_GW
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0       1.9        81     390     409 ..      29      48 ..       9      53 .. 0.78
+
+>> UniRef100_A0A1T4LQY8  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Globicatella sulfidifaciens TaxID=136093 RepID=A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0       3.5   1.5e+02      23      78 ..      28      90 ..       8     131 .. 0.61
+   2 ?   -1.5   0.1       6.9   2.9e+02      69      91 ..     211     235 ..     132     246 .. 0.49
+
+>> UniRef100_A0A2P7Q180  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Peptostreptococcus russellii TaxID=215200 RepID=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.0       2.3        98     274     308 ..      75     205 ..      71     248 .. 0.55
+
+>> UniRef100_A0A3D4SDZ7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Lachnospiraceae bacterium TaxID=1898203 RepID=A0
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.1       1.7        71      62      99 ..     223     260 ..     156     274 .] 0.58
+
+>> UniRef100_A0A288DC70  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Bacteria candidate phyla TaxID=1783234 RepID=A0A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0       2.4     1e+02     362     413 ..      35     101 ..       3     118 .. 0.59
+
+>> UniRef100_A0A2M6WGV3  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Harrisonbacteria bacterium CG10_big_f
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.3       2.1        90      22      51 ..      28      66 ..      14     135 .. 0.52
+
+>> UniRef100_A0A1F6TMV9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Nomurabacteria bacterium GWB1_40_6 Ta
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.6   0.0       1.6        69     287     352 ..      35     129 ..      16     165 .. 0.65
+
+>> UniRef100_A0A2H0UGC0  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Kaiserbacteria bacterium CG10_big_fil
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.1         8   3.4e+02     153     169 ..      20      33 ..       9      50 .. 0.78
+   2 ?   -0.4   0.0       3.1   1.3e+02     355     382 ..      73     103 ..      34     135 .. 0.66
+
+>> UniRef100_A0A1W9NZ53  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=candidate division CPR3 bacterium 4484_211 TaxID
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.0         2        83     310     336 ..      73      99 ..      14     134 .. 0.65
+
+>> UniRef100_UPI000554EB72  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Lachnospiraceae bacterium C6A11 TaxID
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.0       1.8        76     383     417 ..      94     128 ..      11     158 .. 0.59
+
+>> UniRef100_A0A2H0NF47  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Candidatus Jorgensenbacteria TaxID=1752739 RepID
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.1       2.1        91     388     412 ..      23      49 ..       6      82 .. 0.70
+
+>> UniRef100_A0A0E9EWS7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Chlamydia trachomatis TaxID=813 RepID=A0A0E9EWS7
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.0       4.4   1.9e+02      50      88 ..      57     104 ..       8     122 .. 0.54
+   2 ?   -1.6   0.1       7.5   3.2e+02      69     103 ..     220     252 ..     172     256 .. 0.52
+
+>> UniRef100_A0A1F7B3Z9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Peregrinibacteria bacterium RIFOXYB2_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0       2.4     1e+02     274     308 ..      73     155 ..      67     199 .. 0.62
+
+>> UniRef100_A0A1V5N0Q2  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Bacteroidetes bacterium ADurb.Bin408 TaxID=18528
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.0       2.2        93     389     409 ..      26      46 ..      14      51 .. 0.79
+
+>> UniRef100_A0A347VPM7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Helicobacter saguini TaxID=1548018 RepID=A0A347V
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.6   0.0       1.6        67      50      99 ..     181     214 ..      87     249 .. 0.57
+
+>> UniRef100_A0A1V5ZQZ0  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=candidate division CPR1 bacterium ADurb.Bin160 T
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.7        71     109     128 ..      15      40 ..       5      55 .. 0.72
+
+>> UniRef100_A0A2M6X9G3  tRNA (guanine-N(1)-)-methyltransferase (Fragment) n=1 Tax=bacterium (Candidatus Torokbacteria) 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.7   0.0       1.5        63      50      77 ..      45      91 ..       7     105 .. 0.46
+
+>> UniRef100_A0A2N1Q7M2  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=unclassified Tenericutes TaxID=713063 RepID=A0A2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.1   0.0       5.1   2.2e+02     390     409 ..      27      46 ..       7      49 .. 0.76
+   2 ?   -1.7   0.1       7.6   3.2e+02      38      38 ..     210     210 ..     136     242 .] 0.52
+
+>> UniRef100_A0A2G6N7V7  tRNA (Guanosine(37)-N1)-methyltransferase TrmD (Fragment) n=1 Tax=Deltaproteobacteria bacterium
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.0       1.4        60     390     408 ..      27      45 ..       7      46 .] 0.68
+
+>> UniRef100_A0A1G1XW54  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Candidatus Buchananbacteria TaxID=1817903 RepID=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   0.1       4.4   1.9e+02     399     409 ..      37      47 ..       8     121 .. 0.52
+   2 ?   -0.9   0.0       4.3   1.8e+02     274     308 ..      79     179 ..      67     228 .. 0.44
+
+>> UniRef100_A0A0G0RI26  tRNA (guanine-N(1)-)-methyltransferase n=4 Tax=Microgenomates group TaxID=1794810 RepID=A0A0G0R
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.0       7.5   3.2e+02     390     411 ..      27      48 ..      11      54 .. 0.76
+   2 ?   -1.0   0.3       4.8   2.1e+02      71      71 ..      71      71 ..      26     140 .. 0.57
+
+>> UniRef100_UPI0006BB72EF  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Neofamilia massiliensis TaxID=1673724
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.0       2.3        97     340     377 ..      11      50 ..       4      95 .. 0.80
+
+>> UniRef100_A0A1G2VN45  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Parcubacteria group bacterium RIFCSPLOWO2_02_FUL
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0       2.4     1e+02      50      88 ..      45      98 ..      10     124 .. 0.47
+
+>> UniRef100_A0A1B8J6X0  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Helicobacter sp. CLO-3 TaxID=211 RepID=A0A1B8J6X
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.0         2        86     307     366 ..      87     149 ..      20     172 .. 0.64
+
+>> UniRef100_A0A1M6KM45  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Anaerobranca californiensis DSM 14826 TaxID=1120
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0         3   1.3e+02     392     409 ..      29      46 ..      11      50 .. 0.76
+
+>> UniRef100_A0A355S1Q4  tRNA (guanine-N(1)-)-methyltransferase (Fragment) n=1 Tax=Clostridiaceae bacterium TaxID=189820
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.1       1.7        72     218     234 ..      45      61 ..      17      62 .. 0.86
+
+>> UniRef100_A0A0P7ICD1  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax='Echinacea purpurea' witches'-broom phytoplasma 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.6   0.0       3.7   1.6e+02     389     409 ..      26      46 ..       7      52 .. 0.77
+
+>> UniRef100_A0A2H5XR68  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=bacterium HR19 TaxID=2035414 RepID=A0A2H5XR68_9B
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.0   0.0       2.4     1e+02      86     114 ..     227     255 ..     161     274 .. 0.78
+
+>> UniRef100_A0A2M7AXR1  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Portnoybacteria bacterium CG06_land_8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.0   0.1       2.3        98      77     114 ..     160     196 ..      25     209 .. 0.60
+
+>> UniRef100_A0A1V5VPT8  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Microgenomates group bacterium ADurb.Bin219 TaxI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.1       3.4   1.5e+02     396     409 ..      51      64 ..      11     137 .. 0.57
+
+>> UniRef100_A0A1V5WSU8  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=bacterium ADurb.Bin212 TaxID=1866924 RepID=A0A1V
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.1   0.0       2.2        93      38      47 ..     108     118 ..      19     179 .. 0.57
+
+>> UniRef100_A0A0G0KPG2  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Parcubacteria group TaxID=1794811 RepID=A0A0G0KP
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.0       4.1   1.8e+02     153     166 ..      20      32 ..       3      35 .. 0.79
+
+>> UniRef100_UPI000553D58C  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Lachnospira multipara TaxID=28051 Rep
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.4   0.1       1.8        76      45      81 ..     213     249 ..      92     265 .] 0.65
+
+>> UniRef100_K2A1V9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=uncultured bacterium TaxID=77133 RepID=K2A1V9_9BACT
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.0       1.6        69     319     353 ..      72     106 ..      25     222 .. 0.83
+
+>> UniRef100_A0A2H0TN34  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Moranbacteria bacterium CG10_big_fil_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.1       4.9   2.1e+02     359     381 ..      64      86 ..      20     119 .. 0.54
+
+>> UniRef100_A0A0S7BUU3  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Lentimicrobium saccharophilum TaxID=1678841 RepI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0         3   1.3e+02     391     409 ..      28      46 ..      10      50 .. 0.78
+
+>> UniRef100_A0A1F4UKZ9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=candidate division WWE3 bacterium RBG_19FT_COMBO
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0         3   1.3e+02      50      86 ..      51      98 ..      11     119 .. 0.50
+
+>> UniRef100_UPI00031584C0  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Italian clover phyllody phytoplasma T
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.5       4.8     2e+02      73      97 ..     220     244 ..     141     250 .] 0.47
+
+>> UniRef100_A0A3M1J2A0  tRNA (Guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Chloroflexi bacterium TaxID=2026724 RepI
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0         3   1.3e+02     394     409 ..      32      47 ..      13      51 .. 0.80
+
+>> UniRef100_A0A2H0UPQ9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Harrisonbacteria bacterium CG10_big_f
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.2   0.6       2.1        90      50      51 ..      66      78 ..       9     239 .. 0.63
+
+>> UniRef100_A0A0G0HU27  tRNA (guanine-N(1)-)-methyltransferase n=2 Tax=Candidatus Woesebacteria TaxID=1752722 RepID=A0A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0       2.7   1.2e+02      23      29 ..      97     103 ..      19     182 .. 0.51
+
+>> UniRef100_A0A1X6QQ37  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Entomoplasmatales bacterium EntAcro10 TaxID=1941
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.9   1.1       4.5   1.9e+02      38      71 ..     223     252 ..     154     270 .] 0.48
+
+>> UniRef100_W4QB75  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Bacillus hemicellulosilyticus JCM 9152 TaxID=1236971
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.0       3.1   1.3e+02     375     409 ..     132     173 ..      90     175 .. 0.65
+
+>> UniRef100_A0A1J1EBX0  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Ichthyobacterium seriolicida TaxID=242600 RepID=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0       3.4   1.5e+02     390     409 ..      27      46 ..      12      51 .. 0.80
+
+>> UniRef100_G9X169  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Peptoanaerobacter stomatis TaxID=796937 RepID=G9X169
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.1       4.2   1.8e+02     393     409 ..      30      46 ..      10      50 .. 0.75
+
+>> UniRef100_B3R0P2  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Phytoplasma mali (strain AT) TaxID=482235 RepID=TRMD
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.1   0.1       2.5   1.1e+02      84     125 ..     186     226 ..      68     239 .. 0.67
+
+>> UniRef100_A0A2E4SYS9  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Flavobacteriales bacterium TaxID=2021391 RepID=A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.5   0.0       6.7   2.9e+02     390     409 ..      27      46 ..      10      54 .. 0.75
+
+>> UniRef100_R5JAC1  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Clostridium sp. CAG:1193 TaxID=1262771 RepID=R5JAC1_
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.1       3.5   1.5e+02     328     349 ..     255     276 ..     148     352 .. 0.59
+
+>> UniRef100_A0A1F5EKD4  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Berkelbacteria bacterium RIFCSPHIGHO2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.0   0.2       4.9   2.1e+02      30      30 ..     173     173 ..      63     249 .. 0.60
+
+>> UniRef100_A0A3D2MDC2  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Firmicutes bacterium TaxID=1879010 RepID=A0A3D2M
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.6   9.7       3.5   1.5e+02      43     161 ..     204     324 ..     156     329 .. 0.67
+
+>> UniRef100_A0A2M6WZJ8  tRNA (guanine-N(1)-)-methyltransferase (Fragment) n=1 Tax=Candidatus Andersenbacteria bacterium
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.0   0.0       2.4     1e+02     391     411 ..      28      48 ..      10      52 .. 0.77
+
+>> UniRef100_A0A345UNJ5  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Cyclonatronum proteinivorum TaxID=145
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.6   0.0       3.6   1.5e+02     390     409 ..      28      47 ..      11      51 .. 0.76
+
+>> UniRef100_A0A358F813  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Nomurabacteria bacterium TaxID=205215
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0       2.8   1.2e+02     289     347 ..      37     129 ..      26     170 .. 0.56
+
+>> UniRef100_A0A0Q1FXC7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Lachnospiraceae bacterium TF01-11 TaxID=1703332 
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0       2.9   1.2e+02      58      78 ..     111     141 ..      22     173 .. 0.61
+
+>> UniRef100_U2QC33  Uncharacterized protein n=1 Tax=Leptotrichia wadei (strain F0279) TaxID=888055 RepID=U2QC33_LEPWF
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.3   0.2       1.9        83     198     203 ..      30      35 ..       2      53 .] 0.39
+
+>> UniRef100_UPI000A067A39  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=gamma proteobacterium HTCC5015 TaxID=
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.3   0.0       2.9   1.2e+02     389     414 ..      67      94 ..      13     107 .. 0.67
+
+>> UniRef100_A0A2U2S5L5  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Ardenticatenia bacterium TaxID=2099665 RepID=A0A
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.5   0.0       3.4   1.5e+02     395     410 ..      32      47 ..      16      51 .. 0.81
+
+>> UniRef100_UPI000414A032  tRNA (guanosine(37)-N1)-methyltransferase TrmD n=1 Tax=Paenibacillus taiwanensis TaxID=40163
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.2   0.0       2.8   1.2e+02      39      55 ..      98     115 ..      26     189 .. 0.55
+
+>> UniRef100_A0A1G1Z191  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Colwellbacteria bacterium RIFCSPHIGHO
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> UniRef100_A0A1Z9F2C3  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Flavobacteriales bacterium TMED123 TaxID=1986721
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.0       4.1   1.7e+02     390     410 ..      27      47 ..       9      55 .. 0.74
+
+>> UniRef100_A0A2G6DPX2  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Moranbacteria bacterium TaxID=2045217
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.4   0.0       3.2   1.4e+02      50      92 ..      54     106 ..      15     127 .. 0.56
+
+>> UniRef100_A0A1F8GDR7  tRNA (guanine-N(1)-)-methyltransferase n=1 Tax=Candidatus Yanofskybacteria bacterium RIFCSPLOWO
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -1.7   0.0         8   3.4e+02     157     167 ..      78      88 ..       8     144 .. 0.63
+   2 ?   -1.5   0.0       6.9   2.9e+02     170     189 ..     208     227 ..     148     242 .. 0.66
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                              1  (431 nodes)
+Target sequences:                         4645  (1181155 residues searched)
+Passed MSV filter:                      4645  (1); expected 4645.0 (1)
+Passed bias filter:                     4645  (1); expected 4645.0 (1)
+Passed Vit filter:                      4645  (1); expected 4645.0 (1)
+Passed Fwd filter:                      4645  (1); expected 4645.0 (1)
+Initial search space (Z):               4645  [actual number of targets]
+Domain search space  (domZ):             109  [number of targets reported over threshold]
+# CPU time: 7.58u 0.01s 00:00:07.59 Elapsed: 00:00:01.78
+# Mc/sec: 286.00
+//
+[ok]

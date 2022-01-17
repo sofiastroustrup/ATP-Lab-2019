@@ -1,0 +1,13 @@
+BEGIN ASSUMPTIONS;
+EXSET * UNTITLED  =  1-50;
+END;
+BEGIN CODONS;
+CODONPOSSET * CodonPositions =
+ N:,
+ 1: 1-538\3,
+ 2: 2-536\3,
+ 3: 3-537\3;
+CODESET  * UNTITLED = Universal: all ;
+END;
+BEGIN SETS;
+END;
